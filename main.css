@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
+*{
+    font-family: 'Almarai', sans-serif;
+}
+.main-screen {
+    min-height: 100vh;
+    background-color: aqua;
+    display: flex;
+}
+
+body {
+    margin: 0;
+}
+
+.my-data {
+    width: 20%;
+}
+
+.newsfeed {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: white;
+    padding: 10px;
+}
+hr {
+    width: 100%;
+    color: black;
+    background-color: black;
+}
+.tweet {
+    border: 1px solid black;
+    padding: 15px;
+    border-bottom: 0;
+}
+
+.tweet:last-child {
+    border-bottom: 1px solid black;
+}
+
+#content {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 7px;
+}
+#content:focus {
+    border: 1px solid -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));;
+}
+
+#username {
+    margin: 10px 0;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #5f5f5f;
+    width: 25%;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+#tweets {
+    height: 100%;
+}
+
+.user-image {
+    background-color: #5f5f5f;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline;
+    margin-right: 5px;
+}
+.username-date {
+    display: flex;
+    flex-direction: column;
+}
+.date {
+    font-size: 10px;
+}
+
+.tweet-username {
+    display: flex;
+    align-items: center;
+}
+
+
+.submit-button {
+    margin: 10px 0;
+    font-size: 18px;
+    border: 1px solid blue;
+    background-color: #7676ef;
+    border-radius: 25px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}

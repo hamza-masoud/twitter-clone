@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>twitter</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/ac894e8081.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main-screen">
+        <div class="my-data"></div>
+        <div class="newsfeed">
+
+            <form class="form" onsubmit="return false;">
+                <div class="input">
+                    <textarea id="content" name="content" placeholder="what you want to say..." rows="4" required></textarea>
+                </div>
+                <div class="input">
+                    <label for="username">user name</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <button type="button" class="submit-button" onclick="addNewTweet()">tweet</button>
+
+            </form>
+            <hr>
+            <h3 class="tweet_title">Tweets</h3>
+            <div id="tweets">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
